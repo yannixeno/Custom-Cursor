@@ -1,0 +1,52 @@
+<style>
+
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.cursor-small {
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+    .cursor-big {
+    top: 0px;
+  left: 0px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  padding: 10px;
+  pointer-events: none;
+  position: fixed;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  transition: color 0.5s ease;
+  z-index:9999;
+    }
+
+    p{
+        margin-top: 10px;
+    }
+
+   /*    disable custom cursor on tablet & mobile */
+   @media only screen and (max-width: 768px) {
+    .cursor-small{
+        display:none;
+     }
+
+   }
+
+</style>

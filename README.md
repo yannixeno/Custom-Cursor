@@ -15,13 +15,13 @@ GSAP v3 (https://greensock.com/gsap/)
 ## Import the CDN
 This Mouse Effect requires GSAP library to work. You need to import it before the Mouse Follower:
 
-```
+```js
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 ```
 
 # The Javascript
 This is the rest of the code. Please inmport the CDN before putting this in 
-```
+```js
 <script>
 
 const cursorSmall = document.querySelector(".cursor-small");
@@ -67,7 +67,7 @@ document.addEventListener("mouseleave", mouseleaveHandler);
 
 # The CSS
 Play with these to change the cursor appearance
-```
+```css
 <style>
 
 .cursor {
@@ -124,7 +124,7 @@ Play with these to change the cursor appearance
 
 # The HTML 
 
-```
+```html
 <div class="cursor cursor-small"></div> 
 
 <div class="cursor cursor-big">
@@ -139,3 +139,5 @@ Play with these to change the cursor appearance
 # How to use the enlarge feature *view project* 
 Please assign the ```.view-cursor``` to the image or object you would like to make the cursor enlarge for.
 
+# Example of use
+• www.xfcreations.com

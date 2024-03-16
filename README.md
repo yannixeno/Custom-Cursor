@@ -248,5 +248,5 @@ If you have any questions or just want to connect, feel free to reach out throug
 Thank you for your interest in this project, and happy coding!
 
 Best regards,
-[Yanni X.]
+Yanni X.
 

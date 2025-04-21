@@ -208,20 +208,6 @@ The media query is used to disable the custom cursor on tablet and mobile device
 To apply different styles or completely hide the big cursor on tablet and mobile devices, you can add the ```.cursor-big``` class within the media query block and apply the desired changes.
 Remember that these customizations will only be applied if the corresponding HTML elements are present on the webpage and correctly use the specified CSS classes (```.cursor-small``` and ```.cursor-big```). Additionally, for the custom cursor functionality to be fully enabled and functional, JavaScript or other code would be required to handle cursor behavior and interactions.
 
-# The HTML 
-
-```html
-<div class="cursor cursor-small"></div> 
-
-<div class="cursor cursor-big">
-<!--     Add either one of the below -->
-<!--     <img width="30" height="30" src="" alt=""> -->
- <p>
-        View project
-    </p>
-</div>
-```
-
 # How to use the enlarge feature *view project* 
 Please assign the ```.view-cursor``` to the image or object you would like to make the cursor enlarge for.
 
@@ -238,13 +224,6 @@ Customize the content inside the .cursor-big element based on your preferences (
 Thank you for visiting this repository and exploring the interactive cursor effect! I hope you found it inspiring and useful for your projects. The interactive cursor effect adds an engaging touch to your webpages and enhances the user experience.
 
 If you encountered any issues or have ideas for improvements, please don't hesitate to open an issue or submit a pull request. Your contributions and feedback are highly appreciated and will help make this project even better.
-
-Feel free to use, modify, and customize the code according to your needs. The project is open-source and released under the MIT License, which allows for broad usage and adaptation.
-
-If you liked this project or found it helpful, don't forget to give it a star ⭐️ on GitHub! It motivates me to create more exciting open-source projects in the future.
-
-If you have any questions or just want to connect, feel free to reach out through GitHub or my personal website your-website.com.
-
 Thank you for your interest in this project, and happy coding!
 
 Best regards,

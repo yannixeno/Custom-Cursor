@@ -220,12 +220,3 @@ Add the provided HTML and CSS code to your webpage, making sure to include the n
 Place the script.js code within a <script> tag in your HTML file, or link it externally.
 Customize the content inside the .cursor-big element based on your preferences (e.g., replace the image URL or modify the text).
 
-# The End
-Thank you for visiting this repository and exploring the interactive cursor effect! I hope you found it inspiring and useful for your projects. The interactive cursor effect adds an engaging touch to your webpages and enhances the user experience.
-
-If you encountered any issues or have ideas for improvements, please don't hesitate to open an issue or submit a pull request. Your contributions and feedback are highly appreciated and will help make this project even better.
-Thank you for your interest in this project, and happy coding!
-
-Best regards,
-Yanni X.
-
